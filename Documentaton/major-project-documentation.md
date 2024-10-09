@@ -67,7 +67,7 @@
    - Users can search for previously posted questions to check if their queries have already been answered.
    - Search filters are implemented to sort questions by topics, dates, or relevance.
      
-     4. Upvote/Downvote System:
+   4.  Upvote/Downvote System:
    - An optional voting mechanism allows users to upvote or downvote questions and answers to highlight helpful responses.
 
 5. Database Design:
