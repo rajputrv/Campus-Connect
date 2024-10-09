@@ -1,2 +1,10 @@
-# Students-discussion-portal
-The Student Discussion Portal aims to create a user-friendly and interactive platform for students to post queries and for faculty to provide answers. The primary goal is to facilitate academic discussions beyond the classroom, enhancing learning and communication between students and instructors.
+# Campus Connect
+
+### Project By:
+<a href="https://github.com/rajputrv">Rohit Verma</a> <label>21bcs059</label> <email>21bcs059@nith.ac.in </email>
+
+<a href="https://github.com/Nitika085">Nitika</a> <label>21bcs085</label> <email>21bcs085@nith.ac.in </email>
+
+<a href="https://github.com/shivani123-web"> Shivani</a> <label>21bcs114</label> <email>21bcs114@nith.ac.in </email>
+
+ <a href="https://github.com/Sureshseervi90">Budharam Suresh </a> <label>21bcs043</label> <email>21bcs043@nith.ac.in </email>
