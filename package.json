@@ -1,0 +1,19 @@
+{
+  "name": "educonnect-main",
+  "version": "1.0.0",
+  "description": "<<<<<<< HEAD",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon backend/server.js",
+    "client": "npm run dev --prefix frontend",
+    "dev": "concurrently \" npm run server\" \" npm run client \"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^9.1.0",
+    "nodemon": "^3.1.7"
+  }
+}
