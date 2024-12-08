@@ -5,14 +5,14 @@ const sendMail = async (to, subject, data) => {
   try {
     let config = {
       service: "gmail",
+
       auth: {
         user: process.env.EMAIL,
         pass: process.env.MAILPASS,
       },
     };
 
-    let transporter =
-      nodemailer.createTransport(config);
+    let transporter = nodemailer.createTransport(config);
 
     let MailGenerator = new Mailgen({
       theme: "default",
@@ -29,19 +29,19 @@ const sendMail = async (to, subject, data) => {
     let mail = MailGenerator.generate(response);
 
     let message = {
-      from: '"Admin Edu♾️onnect" <process.env.EMAIL>',
+      from: process.env.EMAIL,
       to,
       subject,
       html: mail,
     };
 
-    await transporter.sendMail(message , (error, info) => {
+    await transporter.sendMail(message, (error, info) => {
       if (error) {
-        console.error('❌ Error:', error.message);
+        console.error("❌ Error:", error.message);
       } else {
-        console.log('✅ Email sent:', info.response);
+        console.log("✅ Email sent:", info.response);
       }
-  })
+    });
   } catch (error) {
     console.error("Error sending email", error);
     throw error;
